@@ -20,24 +20,30 @@ body {
   text-transform: uppercase;
   letter-spacing: -1.05px;
 }
-.nav-link {
+.nav-item {
+  margin: 0;
+  padding: 0;
+}
+.nav-link__header {
   font-size: 11px;
   text-transform: uppercase;
+  text-decoration: none;
   color: #ffffff;
   opacity: 0.75;
   letter-spacing: 1px;
-  padding: 20px;
+  padding: 14px;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
 }
-.nav-link.active {
+.nav-link__header.active {
   background-color: blueviolet;
   color: #ffffff !important;
   font-weight: 700;
   border-top: 3px solid red;
 }
-.nav-link:hover {
+.nav-link__header:hover {
   color: #ffffff !important;
   font-weight: 700;
-
   background-color: #419ebb;
 }
 .navbar-toggler {
@@ -46,4 +52,52 @@ body {
 .navbar-toggler-icon {
   background-image: url("/public/assets/icon-hamburger.svg");
   color: #ffffff;
+}
+/*PLANETS
+.col__planet {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+font-family: 'Antonio', sans-serif;
+font-family: 'League Spartan', sans-serif;
+*/
+.container {
+  width: 75%;
+}
+/*CARD_BODY*/
+.card {
+  height: 70%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: #070724;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 39px;
+}
+.card-title {
+  font-family: "Antonio", sans-serif;
+  font-size: 80px;
+  text-transform: uppercase;
+  margin-top: 126px;
+  margin-bottom: 23px;
+}
+.card-text {
+  width: 350px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+}
+.nav {
+  flex-direction: column;
+}
+.nav-link {
+  text-transform: uppercase;
+  text-decoration: none;
 }

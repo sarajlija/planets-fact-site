@@ -4,22 +4,21 @@ import Card from "react-bootstrap/Card"
 import Nav from "react-bootstrap/Nav"
 import data from "../../data.json"
 import { Link } from "react-router-dom"
-
-function MercuryStructure() {
+function Mercury() {
   return (
     <Container>
       <Row>
         <Col md={6} className="vh-100 d-flex justify-content-center align-items-center">
-          <Image src={data[0].images.internal} />
+          <Image src={data[0].images.planet} />
         </Col>
         <Col md={6} className="vh-100">
           <Card>
             <Card.Body className="text-light">
               <Card.Title as="h1">{data[0].name}</Card.Title>
-              <Card.Text>{data[0].structure.content}</Card.Text>
+              <Card.Text>{data[0].overview.content}</Card.Text>
               <Card.Text>
                 Source:
-                <a href={data[0].structure.source} className="me-2 ms-2">
+                <a href={data[0].overview.source} className="me-2 ms-2">
                   Wikipedia
                   <Image fluid src="./assets/icon-source.svg" />
                 </a>
@@ -49,4 +48,4 @@ function MercuryStructure() {
   )
 }
 
-export default MercuryStructure
+export default Mercury
