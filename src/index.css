@@ -33,7 +33,7 @@ body {
   letter-spacing: 1px;
   padding: 14px;
   height: 100%;
-  transition: all 0.3s ease-in-out;
+  /* transition: all 0.1s ease-in;*/
 }
 .nav-link__header.active {
   background-color: blueviolet;
@@ -44,7 +44,7 @@ body {
 .nav-link__header:hover {
   color: #ffffff !important;
   font-weight: 700;
-  background-color: #419ebb;
+  opacity: 1;
 }
 .navbar-toggler {
   color: transparent;
