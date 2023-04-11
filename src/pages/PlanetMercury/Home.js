@@ -26,17 +26,17 @@ function Mercury() {
             </Card.Body>
             <Nav variant="pills" defaultActiveKey="">
               <Nav.Item>
-                <Link to="/" bsPrefix="">
+                <Link to="/">
                   <span>01</span>OVERVIEW
                 </Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/mercury-structure" bsPrefix="">
+                <Link to="/mercury-structure">
                   <span>02</span>Internal Structure
                 </Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/mercury-geology" bsPrefix="">
+                <Link to="/mercury-geology">
                   <span>03</span>Surface Geology
                 </Link>
               </Nav.Item>
