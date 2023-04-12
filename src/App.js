@@ -1,7 +1,9 @@
 import "./App.css"
 import { Routes, Route } from "react-router-dom"
-import Home from "./pages/PlanetMercury/Home"
+import Mercury from "./pages/PlanetMercury/Mercury"
 import Header from "./Header"
+import Footer from "./Footer"
+import Planets from "./Planets"
 import Earth from "./pages/PlanetEarth/Earth.js"
 import Venus from "./pages/PlanetVenus/Venus.js"
 import Jupiter from "./pages/PlanetJupiter/Jupiter.js"
@@ -18,10 +20,14 @@ function App() {
     <main className="h-100">
       <Header />
       <hr className="text-light my-0 " />
+      <Planets />
+      <Footer />
+      {/*
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Mercury />} />
+
         <Route path="/mercury-structure" element={<MercuryStructure />} />
-        <Route path="/mercury-geology" element={<MercuryGeology />} />
+       <Route path="/mercury-geology" element={<MercuryGeology />} />
         <Route path="/venus-structure" element={<VenusStructure />} />
         <Route path="/venus-geology" element={<VenusGeology />} />
         <Route path="/earth" element={<Earth />} />
@@ -31,7 +37,7 @@ function App() {
         <Route path="/saturn" element={<Saturn />} />
         <Route path="/uranus" element={<Uranus />} />
         <Route path="/neptune" element={<Neptune />} />
-      </Routes>
+      </Routes>*/}
     </main>
   )
 }
