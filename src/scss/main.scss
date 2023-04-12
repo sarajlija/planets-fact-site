@@ -1,5 +1,172 @@
-@import "../../node_modules/bootstrap/scss/navbar";
-.nav-link.active {
-  background-color: red;
-  color: aqua;
+/*@import "../../node_modules/bootstrap/scss/bootstrap";*/
+.nav {
+  flex-direction: column;
+}
+
+.nav-link {
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.75;
+  letter-spacing: 1px;
+  padding: 14px;
+  transition: all 0.2s ease-in;
+  &__mercury {
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.75;
+    letter-spacing: 1px;
+    padding: 14px;
+    transition: all 0.2s ease-in;
+    &__overview {
+      font-size: 11px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #ffffff;
+      opacity: 0.75;
+      letter-spacing: 1px;
+      padding: 14px;
+      transition: all 0.2s ease-in;
+      &.active {
+        background-color: goldenrod;
+        border-top: none;
+        color: #ffffff !important;
+        font-weight: 700;
+      }
+      &:hover {
+        color: #ffffff !important;
+        border-top: none;
+        font-weight: 700;
+        opacity: 1;
+      }
+    }
+    &__structure {
+      font-size: 11px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #ffffff;
+      opacity: 0.75;
+      letter-spacing: 1px;
+      padding: 14px;
+      transition: all 0.2s ease-in;
+      &.active {
+        background-color: goldenrod;
+        border-top: none;
+        color: #ffffff !important;
+        font-weight: 700;
+      }
+      &:hover {
+        color: #ffffff !important;
+        border-top: none;
+        font-weight: 700;
+        opacity: 1;
+      }
+    }
+    &__geology {
+      font-size: 11px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #ffffff;
+      opacity: 0.75;
+      letter-spacing: 1px;
+      padding: 14px;
+      transition: all 0.2s ease-in;
+      &.active {
+        background-color: goldenrod;
+        border-top: none;
+        color: #ffffff !important;
+        font-weight: 700;
+      }
+      &:hover {
+        color: #ffffff !important;
+        border-top: none;
+        font-weight: 700;
+        opacity: 1;
+      }
+    }
+    &.active {
+      color: #ffffff !important;
+      font-weight: 700;
+      background-color: goldenrod;
+      border-top: 5px solid rgb(0, 255, 17);
+    }
+    &:hover {
+      color: #ffffff !important;
+      border-top: 5px solid rgb(0, 255, 17);
+      font-weight: 700;
+      opacity: 1;
+    }
+  }
+  &__venus {
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.75;
+    letter-spacing: 1px;
+    padding: 14px;
+    transition: all 0.2s ease-in;
+
+    &.active {
+      color: #ffffff !important;
+      font-weight: 700;
+      background-color: rgb(32, 218, 150);
+      border-top: 5px solid rgb(255, 0, 174);
+    }
+    &:hover {
+      color: #ffffff !important;
+      font-weight: 700;
+      opacity: 1;
+      border-top: 5px solid rgb(255, 0, 174);
+    }
+  }
+  &__earth {
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.75;
+    letter-spacing: 1px;
+    padding: 14px;
+    transition: all 0.2s ease-in;
+
+    &.active {
+      color: #ffffff !important;
+      font-weight: 700;
+      background-color: rgb(91, 32, 218);
+      border-top: 5px solid rgb(0, 145, 255);
+    }
+    &:hover {
+      color: #ffffff !important;
+      font-weight: 700;
+      border-top: 5px solid rgb(0, 145, 255);
+      opacity: 1;
+    }
+  }
+  &__mars {
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.75;
+    letter-spacing: 1px;
+    padding: 14px;
+    transition: all 0.2s ease-in;
+
+    &.active {
+      color: #ffffff !important;
+      font-weight: 700;
+      background-color: rgb(218, 203, 32);
+      border-top: 5px solid rgb(255, 0, 123);
+    }
+    &:hover {
+      color: #ffffff !important;
+      font-weight: 700;
+      border-top: 5px solid rgb(255, 0, 123);
+      opacity: 1;
+    }
+  }
 }

@@ -26,17 +26,17 @@ function Venus() {
             </Card.Body>
             <Nav variant="pills" defaultActiveKey="">
               <Nav.Item>
-                <Link to="/venus" bsPrefix="">
+                <Link to="/venus">
                   <span>01</span>OVERVIEW
                 </Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/venus-structure" bsPrefix="">
+                <Link to="/venus-structure">
                   <span>02</span>Internal Structure
                 </Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/venus-geology" bsPrefix="">
+                <Link to="/venus-geology">
                   <span>03</span>Surface Geology
                 </Link>
               </Nav.Item>

@@ -9,7 +9,6 @@ import Neptune from "./pages/PlanetNeptune/Neptune.js"
 import Uranus from "./pages/PlanetUranus/Uranus.js"
 import Saturn from "./pages/PlanetSaturn/Saturn"
 import Mars from "./pages/PlanetMar/Mars"
-
 import MercuryGeology from "./pages/PlanetMercury/MercuryGeology"
 import MercuryStructure from "./pages/PlanetMercury/MercuryStructure"
 import VenusGeology from "./pages/PlanetVenus/VenusGeology"
