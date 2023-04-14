@@ -9,10 +9,10 @@ function Mercury() {
   return (
     <Container>
       <Row>
-        <Col md={6} className="vh-100 d-flex justify-content-center align-items-center">
-          <Image src={data[0].images.planet} />
+        <Col md={6} className="d-flex justify-content-center align-items-center">
+          <Image fluid src={data[0].images.planet} />
         </Col>
-        <Col md={6} className="vh-100">
+        <Col md={6} className="">
           <Card>
             <Card.Body className="text-light">
               <Card.Title as="h1">{data[0].name}</Card.Title>
@@ -48,6 +48,40 @@ function Mercury() {
                 </Nav.Item>
               </LinkContainer>
             </Nav>
+          </Card>
+        </Col>
+      </Row>
+      <Row xs={1} md={4} className="g-4 ">
+        <Col>
+          <Card bsPrefix="card__footer">
+            <Card.Body>
+              <Card.Title bsPrefix="">ROTATION TIME</Card.Title>
+              <Card.Footer as="h1">{data[0].rotation}</Card.Footer>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card bsPrefix="card__footer">
+            <Card.Body>
+              <Card.Title>REVOLUTION TIME</Card.Title>
+              <Card.Footer as="h1">{data[0].revolution}</Card.Footer>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card bsPrefix="card__footer">
+            <Card.Body>
+              <Card.Title>radius</Card.Title>
+              <Card.Footer as="h1">{data[0].radius}</Card.Footer>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card bsPrefix="card__footer">
+            <Card.Body>
+              <Card.Title>AVERAGE TEMP.</Card.Title>
+              <Card.Footer as="h1">{data[0].temperature}</Card.Footer>
+            </Card.Body>
           </Card>
         </Col>
       </Row>

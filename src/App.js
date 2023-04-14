@@ -20,14 +20,13 @@ function App() {
     <main className="h-100">
       <Header />
       <hr className="text-light my-0 " />
-      <Planets />
-      <Footer />
-      {/*
+      {/*<Planets />*/}
+
       <Routes>
         <Route path="/" element={<Mercury />} />
 
         <Route path="/mercury-structure" element={<MercuryStructure />} />
-       <Route path="/mercury-geology" element={<MercuryGeology />} />
+        <Route path="/mercury-geology" element={<MercuryGeology />} />
         <Route path="/venus-structure" element={<VenusStructure />} />
         <Route path="/venus-geology" element={<VenusGeology />} />
         <Route path="/earth" element={<Earth />} />
@@ -37,7 +36,7 @@ function App() {
         <Route path="/saturn" element={<Saturn />} />
         <Route path="/uranus" element={<Uranus />} />
         <Route path="/neptune" element={<Neptune />} />
-      </Routes>*/}
+      </Routes>
     </main>
   )
 }

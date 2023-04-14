@@ -25,7 +25,7 @@ function Header() {
             ))*/}
             <LinkContainer to="/">
               <Nav.Item>
-                <Nav.Link href="/" bsPrefix="nav-link__mercury">
+                <Nav.Link href="/" bsPrefix="nav-link__mercury ">
                   Mercury
                 </Nav.Link>
               </Nav.Item>
