@@ -1,0 +1,39 @@
+.nav-link {
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.75;
+  letter-spacing: 1px;
+  padding: 14px;
+  transition: all 0.2s ease-in;
+}
+.nav-link__mercury {
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.75;
+  letter-spacing: 1px;
+  padding: 14px;
+  transition: all 0.2s ease-in;
+}
+.nav-link__mercury.active {
+  font-size: 11px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.75;
+  letter-spacing: 1px;
+  padding: 14px;
+  transition: all 0.2s ease-in;
+  background-color: goldenrod;
+  color: #ffffff !important;
+  border-top: 5px solid rgb(0, 255, 17);
+}
+.nav-link__mercury:hover {
+  color: #ffffff !important;
+  font-weight: 700;
+  background-color: goldenrod;
+  border-top: 5px solid rgb(0, 255, 17);
+}

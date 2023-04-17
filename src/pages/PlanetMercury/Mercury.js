@@ -3,7 +3,7 @@ import { Col, Container, Row, Image } from "react-bootstrap"
 import Card from "react-bootstrap/Card"
 import Nav from "react-bootstrap/Nav"
 import data from "../../data.json"
-
+import "./Mercury.css"
 import { LinkContainer } from "react-router-bootstrap"
 function Mercury() {
   return (
@@ -27,25 +27,19 @@ function Mercury() {
             </Card.Body>
             <Nav variant="pills" defaultActiveKey="">
               <LinkContainer to="/">
-                <Nav.Item>
-                  <Nav.Link href="/" bsPrefix="nav-link__mercury">
-                    <span>01</span>OVERVIEW
-                  </Nav.Link>
-                </Nav.Item>
+                <Nav.Link href="/" bsPrefix="nav-link__mercury">
+                  <span>01</span>OVERVIEW
+                </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/mercury-structure">
-                <Nav.Item>
-                  <Nav.Link href="/mercury-structure" bsPrefix="nav-link__mercury__structure">
-                    <span>02</span>Internal Structure
-                  </Nav.Link>
-                </Nav.Item>
+                <Nav.Link href="/mercury-structure" bsPrefix="nav-link__mercury__structure">
+                  <span>02</span>Internal Structure
+                </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/mercury-geology">
-                <Nav.Item>
-                  <Nav.Link href="/mercury-geology" bsPrefix="nav-link__mercury__geology">
-                    <span>03</span>Surface Geology
-                  </Nav.Link>
-                </Nav.Item>
+                <Nav.Link href="/mercury-geology" bsPrefix="nav-link__mercury__geology">
+                  <span>03</span>Surface Geology
+                </Nav.Link>
               </LinkContainer>
             </Nav>
           </Card>

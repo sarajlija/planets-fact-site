@@ -10,7 +10,7 @@ function MercuryGeology() {
     <Container>
       <Row>
         <Col md={6} className="vh-100 d-flex justify-content-center align-items-center">
-          <Image src={data[0].images.geology} />
+          <Image fluid src={data[0].images.geology} />
         </Col>
         <Col md={6} className="vh-100">
           <Card>
@@ -28,7 +28,7 @@ function MercuryGeology() {
             <Nav variant="pills" defaultActiveKey="">
               <LinkContainer to="/">
                 <Nav.Item>
-                  <Nav.Link href="/" bsPrefix="nav-link__mercury__overview">
+                  <Nav.Link href="/" bsPrefix="nav-link__mercury">
                     <span>01</span>OVERVIEW
                   </Nav.Link>
                 </Nav.Item>
